@@ -25,6 +25,8 @@ A infraestrutura foi desenhada para garantir isolamento de dados e alta disponib
 - `aws_iam_role` - Roles IAM
 - `aws_cloudwatch_log_group` - Logs
 
+
+Diagrama do projeto:
 <img width="1059" height="631" alt="image" src="https://github.com/user-attachments/assets/58be097f-344f-4ecc-a478-5a1901f19c91" />
 
 
