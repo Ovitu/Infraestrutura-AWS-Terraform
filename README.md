@@ -10,7 +10,21 @@ A infraestrutura foi desenhada para garantir isolamento de dados e alta disponib
 
 ## 🛠️ Tecnologias
 * **Terraform** (Infrastructure as Code).
-* **AWS** (VPC, RDS, ECS, ECR).
+* **AWS**.
+* ### Recursos AWS provisionados:
+- `aws_vpc` - Virtual Private Cloud
+- `aws_subnet` - Subnets públicas e privadas
+- `aws_internet_gateway` - Gateway para internet
+- `aws_route_table` - Tabelas de roteamento
+- `aws_security_group` - Firewalls
+- `aws_db_instance` - RDS PostgreSQL
+- `aws_ecs_cluster` - Cluster ECS
+- `aws_ecs_task_definition` - Definição de tasks
+- `aws_ecs_service` - Service ECS
+- `aws_ecr_repository` - Registry Docker
+- `aws_iam_role` - Roles IAM
+- `aws_cloudwatch_log_group` - Logs
+
 
 ## 📄 Como usar
 1. Clone o repositório.
