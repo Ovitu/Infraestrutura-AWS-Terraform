@@ -30,3 +30,7 @@ A infraestrutura foi desenhada para garantir isolamento de dados e alta disponib
 1. Clone o repositório.
 2. Execute `terraform init`.
 3. Execute `terraform apply`.
+
+
+
+<img width="1919" height="1079" alt="Captura de tela 2025-12-19 165654" src="https://github.com/user-attachments/assets/a939f445-c627-468f-81f5-5f41a6b3df02" />
