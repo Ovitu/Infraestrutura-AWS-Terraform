@@ -32,6 +32,18 @@ A infraestrutura foi desenhada para garantir isolamento de dados e alta disponib
 - `aws_iam_role` - Roles IAM
 - `aws_cloudwatch_log_group` - Logs
 
+## 🔍 Decisões de Design
+
+### Por que não tem ALB?
+Para reduzir custos em ambiente de demonstração/portfólio, o Application Load Balancer 
+(~$16/mês) foi omitido. Em produção, seria essencial para:
+- Distribuição de carga entre containers
+- Health checks automáticos
+- Terminação SSL/TLS
+- Roteamento baseado em path/host
+
+**Feature futura**: Implementar ALB com certificado SSL (ACM) e domínio customizado.
+
 ## 📄 Como usar
 
 ### 1. Clone o repositório
@@ -67,17 +79,6 @@ terraform apply
 terraform destroy
 ```
 
-## 🔍 Decisões de Design
-
-### Por que não tem ALB?
-Para reduzir custos em ambiente de demonstração/portfólio, o Application Load Balancer 
-(~$16/mês) foi omitido. Em produção, seria essencial para:
-- Distribuição de carga entre containers
-- Health checks automáticos
-- Terminação SSL/TLS
-- Roteamento baseado em path/host
-
-**Feature futura**: Implementar ALB com certificado SSL (ACM) e domínio customizado.
 
 
 
