@@ -35,8 +35,8 @@ A infraestrutura foi desenhada para garantir isolamento de dados e alta disponib
 ## 🔍 Decisões de Design
 
 ### Por que não tem ALB?
-Para reduzir custos em ambiente de demonstração/portfólio, o Application Load Balancer 
-(~$16/mês) foi omitido. Em produção, seria essencial para:
+Para reduzir custos em ambiente de demonstração (FreeTier), o Application Load Balancer 
+(~$16/mês) foi omitido. Em produção, é essencial para:
 - Distribuição de carga entre containers
 - Health checks automáticos
 - Terminação SSL/TLS
