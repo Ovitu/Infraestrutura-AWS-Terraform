@@ -79,7 +79,16 @@ terraform apply
 terraform destroy
 ```
 
+## 📚 Aprendizados
 
+Durante o desenvolvimento deste projeto, aprendi:
+
+- ✅ Provisionamento de infraestrutura usando IaC (Terraform)
+- ✅ Design de redes AWS (VPC, subnets, routing)
+- ✅ Configuração de security groups e isolamento de rede
+- ✅ Integração RDS + ECS para aplicações stateful
+- ✅ Boas práticas de segurança (private subnets para databases)
+- ✅ Conceitos de Multi-AZ para alta disponibilidade
 
 
 
