@@ -1,6 +1,13 @@
 # 🚀 AWS Cloud Infrastructure with Terraform
 
-Este projeto automatiza o provisionamento de uma arquitetura segura e escalável para hospedar uma API na AWS.
+## 📖 Sobre o Projeto
+
+Este projeto demonstra o provisionamento automatizado de infraestrutura AWS usando Terraform, 
+criando um ambiente completo para hospedar APIs containerizadas com segurança e escalabilidade.
+
+**Objetivo**: Aplicar conceitos de Infrastructure as Code (IaC) para provisionar recursos 
+cloud.
+
 
 ## 🏗️ Arquitetura
 A infraestrutura foi desenhada para garantir isolamento de dados e alta disponibilidade:
